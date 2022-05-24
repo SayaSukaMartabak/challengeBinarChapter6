@@ -1,0 +1,9 @@
+<link href="/style.css" rel="stylesheet" />
+<h1>Edit Data</h1>
+<form action="/userGame/edit/<%= data.id %>" method="post">
+  <label for="">Username</label><br>
+  <input type="text" id="username" name="username" value="<%= data.username %>"/><br><br>
+  <label for="">Password</label><br>
+  <input type="text" name="password" id="password" value="<%= data.password %>"/><br><br>
+  <button type="submit">Submit</button>
+</form>

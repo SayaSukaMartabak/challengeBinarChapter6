@@ -1,0 +1,21 @@
+<link href="/style.css" rel="stylesheet" />
+<div id="allUsergame">
+<h1 class="usergame">USER_GAME</h1>
+<button><a href="/userGame/add">Add User Data</a></button>
+<table>
+  <tr>
+    <th>Username</th>
+    <th>Password</th>
+  </tr>
+  <% data.forEach(e => { %>
+  <tr>
+    <td><%= e.username %></td>
+    <td><%= e.password %></td>
+    <td>
+      <button><a href="/userGame/edit/<%= e.id %>">Edit</a></button>
+      <button><a href="/userGame/delete/<%= e.id %>"> Delete</a></button>
+    </td>
+  </tr>
+  <%})%>
+</table>
+</div>

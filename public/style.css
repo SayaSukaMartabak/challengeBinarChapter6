@@ -1,0 +1,38 @@
+#allAdd{
+  display: flex;
+  justify-content: center;
+}
+.add {
+  background-color: rgb(47, 143, 157);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(18, 91, 80);
+}
+
+#containerAdd {
+  width: 500px;
+  background-color: rgb(130, 219, 216);
+  padding: 20px;
+  text-align: center;
+}
+
+/*-----------------------------------------------------------------------*/
+#allUsergame{
+  display: flex;
+  justify-content: center;
+}
+.add {
+  background-color: rgb(47, 143, 157);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(18, 91, 80);
+}
+
+#containerAdd {
+  width: 500px;
+  background-color: rgb(130, 219, 216);
+  padding: 20px;
+  text-align: center;
+}
